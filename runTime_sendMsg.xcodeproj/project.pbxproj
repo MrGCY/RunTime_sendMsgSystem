@@ -15,6 +15,8 @@
 		41233B2D1F57E7C800C2D624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41233B2B1F57E7C800C2D624 /* LaunchScreen.storyboard */; };
 		41233B381F57E7C800C2D624 /* runTime_sendMsgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B371F57E7C800C2D624 /* runTime_sendMsgTests.m */; };
 		41233B431F57E7C800C2D624 /* runTime_sendMsgUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B421F57E7C800C2D624 /* runTime_sendMsgUITests.m */; };
+		41233B581F57E95500C2D624 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B571F57E95500C2D624 /* Person.m */; };
+		41233B5E1F5939B900C2D624 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B5D1F5939B800C2D624 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		41233B3E1F57E7C800C2D624 /* runTime_sendMsgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runTime_sendMsgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41233B421F57E7C800C2D624 /* runTime_sendMsgUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runTime_sendMsgUITests.m; sourceTree = "<group>"; };
 		41233B441F57E7C800C2D624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41233B561F57E95500C2D624 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		41233B571F57E95500C2D624 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		41233B5C1F5939B800C2D624 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		41233B5D1F5939B800C2D624 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				41233B2B1F57E7C800C2D624 /* LaunchScreen.storyboard */,
 				41233B2E1F57E7C800C2D624 /* Info.plist */,
 				41233B1D1F57E7C800C2D624 /* Supporting Files */,
+				41233B561F57E95500C2D624 /* Person.h */,
+				41233B571F57E95500C2D624 /* Person.m */,
+				41233B5C1F5939B800C2D624 /* Dog.h */,
+				41233B5D1F5939B800C2D624 /* Dog.m */,
 			);
 			path = runTime_sendMsg;
 			sourceTree = "<group>";
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41233B5E1F5939B900C2D624 /* Dog.m in Sources */,
 				41233B251F57E7C800C2D624 /* ViewController.m in Sources */,
 				41233B221F57E7C800C2D624 /* AppDelegate.m in Sources */,
+				41233B581F57E95500C2D624 /* Person.m in Sources */,
 				41233B1F1F57E7C800C2D624 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runTime_sendMsg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.it.runTime-sendMsg";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runTime_sendMsg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.it.runTime-sendMsg";
 				PRODUCT_NAME = "$(TARGET_NAME)";
