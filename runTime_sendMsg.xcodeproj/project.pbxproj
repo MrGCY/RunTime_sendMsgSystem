@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411A41B31F5D5C1100C1BEBB /* NSObject+sendMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A41B21F5D5C1100C1BEBB /* NSObject+sendMsg.m */; };
 		41233B1F1F57E7C800C2D624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B1E1F57E7C800C2D624 /* main.m */; };
 		41233B221F57E7C800C2D624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B211F57E7C800C2D624 /* AppDelegate.m */; };
 		41233B251F57E7C800C2D624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41233B241F57E7C800C2D624 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		411A41B11F5D5C1100C1BEBB /* NSObject+sendMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+sendMsg.h"; sourceTree = "<group>"; };
+		411A41B21F5D5C1100C1BEBB /* NSObject+sendMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+sendMsg.m"; sourceTree = "<group>"; };
 		41233B1A1F57E7C800C2D624 /* runTime_sendMsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runTime_sendMsg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41233B1E1F57E7C800C2D624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41233B201F57E7C800C2D624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				41233B571F57E95500C2D624 /* Person.m */,
 				41233B5C1F5939B800C2D624 /* Dog.h */,
 				41233B5D1F5939B800C2D624 /* Dog.m */,
+				411A41B11F5D5C1100C1BEBB /* NSObject+sendMsg.h */,
+				411A41B21F5D5C1100C1BEBB /* NSObject+sendMsg.m */,
 			);
 			path = runTime_sendMsg;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411A41B31F5D5C1100C1BEBB /* NSObject+sendMsg.m in Sources */,
 				41233B5E1F5939B900C2D624 /* Dog.m in Sources */,
 				41233B251F57E7C800C2D624 /* ViewController.m in Sources */,
 				41233B221F57E7C800C2D624 /* AppDelegate.m in Sources */,
@@ -523,6 +529,7 @@
 				41233B491F57E7C800C2D624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41233B4A1F57E7C800C2D624 /* Build configuration list for PBXNativeTarget "runTime_sendMsgTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +538,7 @@
 				41233B4C1F57E7C800C2D624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41233B4D1F57E7C800C2D624 /* Build configuration list for PBXNativeTarget "runTime_sendMsgUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +547,7 @@
 				41233B4F1F57E7C800C2D624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

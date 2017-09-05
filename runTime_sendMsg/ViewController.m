@@ -73,6 +73,7 @@
     [self performSelector:@selector(dogRun) withObject:nil];
     #pragma clang diagnostic pop
 }
+
 -(id)forwardingTargetForSelector:(SEL)aSelector{
     if (aSelector == NSSelectorFromString(@"dogRun")) {
         return [Dog new];
